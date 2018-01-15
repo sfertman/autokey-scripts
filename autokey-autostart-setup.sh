@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir ~/.config/autostart
 echo \
   $"[Desktop Entry]
   Name=AutoKey
@@ -8,5 +9,4 @@ echo \
   Terminal=false
   Type=Application
   Icon=autokey
-  Categories=GNOME;GTK;Utility;" > /home/one/.config/autostart/autokey-gtk.desk
-# change "one" to your username
+  Categories=GNOME;GTK;Utility;" > ~/.config/autostart/autokey-gtk.desk
